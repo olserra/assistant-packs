@@ -4,11 +4,17 @@
 
 <p align="center">
   <a href="https://instinct.com"><img alt="Feito para o Instinct" src="https://img.shields.io/badge/feito%20para-Instinct-0F5E5A?style=flat-square"></a>
-  <a href="#-os-packs"><img alt="Packs" src="https://img.shields.io/badge/packs-1%20dispon%C3%ADvel%20%C2%B7%203%20planeados-E07A5F?style=flat-square"></a>
+  <a href="#-os-packs"><img alt="Packs" src="https://img.shields.io/badge/packs-1%20dispon%C3%ADvel%20%C2%B7%201%20em%20constru%C3%A7%C3%A3o-E07A5F?style=flat-square"></a>
   <img alt="Línguas" src="https://img.shields.io/badge/l%C3%ADnguas-PT%20%C2%B7%20EN-6B6258?style=flat-square">
   <a href="LICENSE"><img alt="Licença" src="https://img.shields.io/github/license/olserra/assistant-packs?style=flat-square&color=6B6258"></a>
   <a href="https://github.com/olserra/assistant-packs/stargazers"><img alt="Estrelas no GitHub" src="https://img.shields.io/github/stars/olserra/assistant-packs?style=flat-square&color=0F5E5A"></a>
-  <a href="CONTRIBUTING.md"><img alt="PRs bem-vindos" src="https://img.shields.io/badge/PRs-bem--vindos-0F5E5A?style=flat-square"></a>
+  <a href="CONTRIBUTING.md#português"><img alt="PRs bem-vindos" src="https://img.shields.io/badge/PRs-bem--vindos-0F5E5A?style=flat-square"></a>
+  <br>
+  <a href="https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"><img alt="Boas primeiras issues" src="https://img.shields.io/github/issues/olserra/assistant-packs/good%20first%20issue?style=flat-square&label=boas%20primeiras%20issues&color=E07A5F"></a>
+  <a href="#-contribuidores"><img alt="Contribuidores" src="https://img.shields.io/badge/contribuidores-1-E07A5F?style=flat-square"></a>
+  <a href="https://github.com/olserra/assistant-packs/discussions"><img alt="Discussions" src="https://img.shields.io/badge/discussions-participa-0F5E5A?style=flat-square"></a>
+  <a href="CODE_OF_CONDUCT.pt.md"><img alt="Contributor Covenant" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-6B6258?style=flat-square"></a>
+  <a href="CHANGELOG.md"><img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-0.1.0-6B6258?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -17,8 +23,12 @@
   <a href="#-os-packs">Packs</a> ·
   <a href="#-roadmap">Roadmap</a> ·
   <a href="https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml">Pedir um pack</a> ·
-  <a href="CONTRIBUTING.md">Contribuir</a>
+  <a href="CONTRIBUTING.md#português">Contribuir</a> ·
+  <a href="docs/pack-authoring.pt.md">Guias</a> ·
+  <a href="https://github.com/olserra/assistant-packs/discussions">Discussions</a>
 </p>
+
+<p align="center"><sub>Criado por <a href="https://github.com/olserra">@olserra</a> · construído em aberto por quem o usa</sub></p>
 
 ---
 
@@ -67,9 +77,9 @@ e mostra-me um exemplo do resumo da noite de amanhã antes do primeiro sair.
 | # | Pack | O que o teu Instinct faz | Línguas | Estado |
 |:-:|------|--------------------------|:-------:|:------:|
 | 1 | **[O Assistente Configurado](packs/configured-assistant/README.pt.md)** | Resumo matinal · resumo da noite para amanhã · um lembrete de coaching por dia · pontos e placar ao domingo · vigilantes de trânsito e respostas · técnica de hábitos da semana | 🇵🇹 🇬🇧 | ✅ **Disponível · grátis** |
-| 2 | Chefe da Caixa de Entrada | Regras de triagem, rascunhos no teu tom, limpeza semanal de subscrições | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
-| 3 | Logística Familiar | Calendários partilhados, prazos da escola, recolhas, aniversários e presentes | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
-| 4 | Copiloto de Procura de Emprego | Pipeline de candidaturas, briefings de entrevista, lembretes de follow-up | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
+| 2 | **[Chefe da Caixa de Entrada](packs/inbox-zero-chief/README.pt.md)** | Regras de triagem, rascunhos no teu tom, limpeza semanal de subscrições | 🇬🇧 | 🛠️ **Em construção · [procura ajuda](https://github.com/olserra/assistant-packs/issues/2)** |
+| 3 | Logística Familiar | Calendários partilhados, prazos da escola, recolhas, aniversários e presentes | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/3) |
+| 4 | Copiloto de Procura de Emprego | Pipeline de candidaturas, briefings de entrevista, lembretes de follow-up | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/4) |
 
 Falta o pack de que precisas? **[Pede um pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** e dá 👍 aos [pedidos que mais queres](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc). O pedido mais votado é o próximo pack a ser construído.
 
@@ -89,21 +99,55 @@ Falta o pack de que precisas? **[Pede um pack](https://github.com/olserra/assist
 - [x] Pack n.º 1 · O Assistente Configurado (PT + EN)
 - [x] Quadro público de pedidos com votos
 - [x] Contador de instalações ao vivo (👍 na issue #1)
-- [ ] Pack n.º 2 · escolhido pelo [pedido](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc) mais votado
+- [x] Guias para contribuidores, modelos e boas primeiras issues
+- [ ] Pack n.º 2 · Chefe da Caixa de Entrada, construído pela comunidade ([procura ajuda](https://github.com/olserra/assistant-packs/issues/2))
+- [ ] Pack n.º 3 · escolhido pelo [pedido](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc) mais votado
 - [ ] Páginas de pack com dicas da comunidade ("como afinei o meu resumo matinal")
 - [ ] Distintivos de contribuidor: primeira correção, primeiro módulo, autor de pack
-- [ ] Mais línguas (ES, FR) - [ajuda a traduzir](CONTRIBUTING.md)
+- [ ] Mais línguas (ES, FR) - [ajuda a traduzir](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation)
 
-## 🤝 Comunidade
+## 🤝 Constrói connosco
 
-- **💡 [Pede um pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** - descreve a rotina que gostavas que o teu Instinct fizesse.
-- **🗳️ [Vota no quadro](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)** - os 👍 decidem o que se constrói a seguir.
-- **🛠️ [Contribui](CONTRIBUTING.md)** - melhora um módulo, traduz um pack ou publica a tua configuração. Cada contribuição aceite fica creditada no pack e em [CONTRIBUTORS.md](CONTRIBUTORS.md).
+Este projeto é de quem o usa. Decidimos juntos o que se constrói, e cada contribuição fica creditada.
+
+- **🌱 [A tua primeira contribuição em 15 minutos](CONTRIBUTING.md#-a-tua-primeira-contribuição-em-15-minutos)** - sem programar, tudo no browser.
+- **🗳️ [Vota no quadro](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)** - os 👍 decidem o que se constrói a seguir. **[Pede um pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** se o teu não existe.
+- **💬 [Discussions](https://github.com/olserra/assistant-packs/discussions)** - pergunta em Q&A, partilha ideias, mostra como ajustaste um pack em Show & Tell.
+- **✍️ [Guia para criar packs](docs/pack-authoring.pt.md)** - como desenhamos packs, as regras de privacidade e os critérios de qualidade. Vais traduzir? Vê o [guia de tradução](docs/translating.pt.md).
 - **⭐ Dá uma estrela** para acompanhar os packs novos.
 
-### Contribuidores
+### 🌱 Boas primeiras issues
 
-<a href="https://github.com/olserra/assistant-packs/graphs/contributors"><img src="https://contrib.rocks/image?repo=olserra/assistant-packs" alt="Contribuidores"></a>
+| Tarefa | Tempo | Precisas de |
+|--------|:-----:|-------------|
+| [Traduzir o módulo do resumo da manhã para espanhol](https://github.com/olserra/assistant-packs/issues/5) | ~30 min | Espanhol |
+| [Traduzir o módulo do resumo da noite para francês](https://github.com/olserra/assistant-packs/issues/6) | ~30 min | Francês |
+| [Criar uma variante de fim de semana do resumo da manhã](https://github.com/olserra/assistant-packs/issues/7) | ~45 min | Escrita |
+| [Criar a pré-visualização do módulo de vigilantes](https://github.com/olserra/assistant-packs/issues/8) | ~45 min | Editar texto em SVG |
+| [Pack n.º 2: escrever o módulo de limpeza semanal de subscrições](https://github.com/olserra/assistant-packs/issues/9) | ~45 min | Escrita |
+
+<sub>As issues estão escritas em inglês, com um resumo em português.</sub> [Todas as boas primeiras issues →](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+### 🙌 Contribuidores
+
+Obrigado a todos os que constroem o Assistant Packs ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)). Traduções, ideias, revisões e documentação contam, não só packs.
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/olserra"><img src="https://avatars.githubusercontent.com/olserra?s=80" width="80px;" alt="olserra"/><br /><sub><b>olserra</b></sub></a><br /><sub>criador</sub><br />🖋 🤔 📖 🎨 🚧</td>
+      <td align="center" valign="top" width="14.28%"><a href="CONTRIBUTING.md#-a-tua-primeira-contribuição-em-15-minutos"><img src="https://img.shields.io/badge/-%2B-E07A5F?style=for-the-badge" width="80px;" alt="Tu"/><br /><sub><b>Tu?</b></sub></a><br /><sub>começa aqui</sub></td>
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<a href="https://github.com/olserra/assistant-packs/graphs/contributors"><img src="https://contrib.rocks/image?repo=olserra/assistant-packs" alt="Avatares dos contribuidores"></a>
 
 ## ❓ Perguntas frequentes
 
@@ -131,6 +175,22 @@ Os packs são grátis e têm licença MIT.
 Os packs são escritos primeiro para o Instinct. Os ficheiros seguem o formato aberto <a href="https://agentskills.io/specification">Agent Skills</a>, por isso outros assistentes também os conseguem ler. Ver <a href="ADAPTERS.md">ADAPTERS.md</a>.
 </details>
 
+## 📁 Estrutura do repositório
+
+```text
+packs/<id-do-pack>/
+  README.md · README.pt.md   o que o pack faz, com pré-visualizações
+  INSTALL.md                 mensagens de instalação para o Instinct
+  pack.yaml                  nome, versão, módulos, créditos
+  skills/<id-do-pack>/       skill em inglês: SKILL.md + references/ (um ficheiro por módulo)
+  skills/<id-do-pack>-pt/    skill em português
+assets/                      banner e imagens de pré-visualização
+docs/                        guias para criar e traduzir packs (EN + PT)
+examples/                    galeria de pré-visualizações e receitas de ajuste
+FORMAT.md                    o formato dos packs
+CHANGELOG.md                 o que mudou, por versão
+```
+
 ## Licença
 
-[MIT](LICENSE) · Feito por [@olserra](https://github.com/olserra) e [contribuidores](CONTRIBUTORS.md). Sem ligação ao Instinct.
+[MIT](LICENSE) · Criado por [@olserra](https://github.com/olserra), construído com [os nossos contribuidores](CONTRIBUTORS.md) · [Código de Conduta](CODE_OF_CONDUCT.pt.md) · [Segurança e privacidade](SECURITY.md) · Sem ligação ao Instinct.
