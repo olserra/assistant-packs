@@ -1,4 +1,6 @@
-# Adapter notes
+# Using a pack outside Instinct
+
+Packs are written for [Instinct](https://instinct.com) first; the [README](README.md) covers that path. If you use another assistant, these notes help.
 
 Every pack's core is a portable `SKILL.md`. Assistants differ in two things: **how you add instructions** and **whether they can act on a schedule**. These notes cover both. If your assistant cannot run things on a schedule, every module still works on demand ("run my morning brief").
 

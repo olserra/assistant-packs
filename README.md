@@ -1,59 +1,149 @@
-# Assistant Packs
+<p align="center">
+  <img src="assets/banner.jpg" alt="Assistant Packs: ready-made setups that give your Instinct a daily rhythm" width="100%">
+</p>
 
-**Ready-made packs that turn a blank AI assistant into a configured chief of staff.**
+<p align="center">
+  <a href="https://instinct.com"><img alt="Built for Instinct" src="https://img.shields.io/badge/built%20for-Instinct-0F5E5A?style=flat-square"></a>
+  <a href="#-the-packs"><img alt="Packs" src="https://img.shields.io/badge/packs-1%20live%20%C2%B7%203%20planned-E07A5F?style=flat-square"></a>
+  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20PT-6B6258?style=flat-square">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/olserra/assistant-packs?style=flat-square&color=6B6258"></a>
+  <a href="https://github.com/olserra/assistant-packs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/olserra/assistant-packs?style=flat-square&color=0F5E5A"></a>
+  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-0F5E5A?style=flat-square"></a>
+</p>
 
-[Português](README.pt.md) · [Pack format](FORMAT.md) · [Adapters](ADAPTERS.md) · [Contribute](CONTRIBUTING.md) · [Request a pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)
+<p align="center">
+  <b>English</b> · <a href="README.pt.md">Português</a> ·
+  <a href="#-install-in-60-seconds">Install</a> ·
+  <a href="#-the-packs">Packs</a> ·
+  <a href="#-roadmap">Roadmap</a> ·
+  <a href="https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml">Request a pack</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a>
+</p>
 
-Most people get a personal AI assistant and then stare at an empty chat box. The useful setups (a morning brief that actually helps, an evening plan for tomorrow, one accountability nudge a day, watchers that warn you before things go wrong) take weeks of trial and error to get right.
+---
 
-A **pack** is that trial and error, written down once and shared. You install it, answer a few setup questions, and your assistant starts working the way a good chief of staff would.
+**Instinct gets much better once it is configured.** The catch: getting a morning brief that actually helps, an evening plan for tomorrow, one nudge a day that you don't learn to ignore, watchers that warn you before you are late - that takes days of back-and-forth.
 
-## How it works
+**A pack is that setup, written down once.** Send one message to your Instinct, answer a few questions, and it starts running your day. Your details stay in your Instinct. The pack itself is plain Markdown with zero personal data.
 
-1. **Pick a pack** from the catalog below.
-2. **Install it** in your assistant. Packs are plain Markdown in the open [Agent Skills](https://agentskills.io/specification) `SKILL.md` format, with short [adapter notes](ADAPTERS.md) for Instinct, Claude, ChatGPT and open-source agents.
-3. **Answer the setup questions.** Every pack starts with an interview: your city, your hours, what matters to you. No personal data lives in the pack itself.
-4. **Tell others it worked.** React 👍 on the pack's [install issue](https://github.com/olserra/assistant-packs/issues/1). That is the install counter.
+## 👀 What it looks like in your chat
 
-## Catalog
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/previews/morning-brief.svg" alt="Morning brief example: weather, markets, headlines, three priorities, a 5-minute drill and a streak" width="100%"><br><sub><b>☀️ 07:00 · Morning brief</b><br>Weather, your numbers, headlines, 3 priorities, a 5-min drill, your streak</sub></td>
+    <td align="center" width="50%"><img src="assets/previews/evening-brief.svg" alt="Evening brief example: tomorrow's agenda, what to prepare, and a 2-minute reflection" width="100%"><br><sub><b>🌙 21:00 · Evening brief</b><br>Tomorrow's agenda, what to prepare tonight, a 2-minute reflection</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/previews/coaching-ping.svg" alt="Coaching ping example: one midday question, a 2-minute fallback and a streak" width="100%"><br><sub><b>⏰ 13:00 · Coaching ping</b><br>One question a day. No follow-ups. A smaller version on hard days.</sub></td>
+    <td align="center"><img src="assets/previews/weekly-board.svg" alt="Sunday scoreboard example: points per day, best and weakest habit, next week's adjustment" width="100%"><br><sub><b>🏆 Sunday · Scoreboard</b><br>Max 4 points a day. Shows what you did, never a "missed" list.</sub></td>
+  </tr>
+</table>
 
-| # | Pack | What it does | Status |
-|---|------|--------------|--------|
-| 1 | [The Configured Assistant](packs/configured-assistant/) | Morning brief, next-day evening brief, one daily accountability ping, weekly points scoreboard, event watchers, coaching cadence | ✅ Live (EN + PT) |
-| 2 | Inbox Zero Chief | Triage rules, reply drafts in your voice, weekly unsubscribe sweep | 🔜 Coming soon |
-| 3 | Family Logistics | Shared calendars, school deadlines, pickups, birthdays and gifts | 🔜 Coming soon |
-| 4 | Job Search Copilot | Pipeline tracking, interview prep briefs, follow-up nudges | 🔜 Coming soon |
+<sub>Examples with illustrative values. Your briefs use your city, your calendar and live sources.</sub>
 
-Want a different one? [Request a pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml) and 👍 the [requests](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request) you want most. The most-voted requests get built first.
+## ⚡ Install in 60 seconds
 
-## Principles
+**1. Copy this and send it to your Instinct** (iMessage, WhatsApp, Slack - wherever you already talk to it):
 
-- **Neutral format.** One pack, many assistants. The core is a portable `SKILL.md`; adapters cover the differences.
-- **Zero personal data.** Packs are templates. Your details are collected at install time and stay in your assistant.
-- **Adapt, don't nag.** Good assistants scale down on hard days instead of piling on.
-- **Small and composable.** Each module works alone. Install the whole pack or just the morning brief.
-
-## Repository layout
-
+```text
+Install the "Configured Assistant" pack from Assistant Packs.
+Instructions: https://raw.githubusercontent.com/olserra/assistant-packs/main/packs/configured-assistant/skills/configured-assistant/SKILL.md
+Modules are in the references/ folder next to it.
+Run the setup interview with me, schedule only the routines I approve,
+and show me a sample evening brief for tomorrow before the first one goes out.
 ```
-packs/
-  <pack-name>/
-    pack.yaml            # metadata: name, version, languages, modules, credits
-    README.md            # what it does, in plain English
-    README.pt.md         # same in Portuguese
-    INSTALL.md           # copy-paste install prompts
-    skills/
-      <pack-name>/        # English skill
-        SKILL.md
-        references/*.md   # one file per module
-      <pack-name>-pt/     # Portuguese skill
-.github/ISSUE_TEMPLATE/   # pack request form
+
+**2. Answer the setup questions.** City, brief times, the numbers and news you care about, one skill to practice. Say "defaults" to go fast.
+
+**3. Check the sample, then let it run.** Change anything later in plain words: *"move the morning brief to 6:30"*, *"drop the markets"*, *"pause everything this week"*.
+
+**4. 👍 [issue #1](https://github.com/olserra/assistant-packs/issues/1)** if it works for you. That thumbs-up is the public install counter.
+
+> [!TIP]
+> Want just one piece? Send *"Install only the morning brief module from the Configured Assistant pack"* with the same link. More install options in the pack's [INSTALL.md](packs/configured-assistant/INSTALL.md).
+
+## 📦 The packs
+
+| # | Pack | What your Instinct does | Languages | Status |
+|:-:|------|--------------------------|:---------:|:------:|
+| 1 | **[The Configured Assistant](packs/configured-assistant/)** | Morning brief · evening brief for tomorrow · one daily coaching ping · points and a Sunday scoreboard · traffic and reply watchers · weekly habit technique | 🇬🇧 🇵🇹 | ✅ **Live · free** |
+| 2 | Inbox Zero Chief | Triage rules, reply drafts in your voice, a weekly unsubscribe sweep | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
+| 3 | Family Logistics | Shared calendars, school deadlines, pickups, birthdays and gifts | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
+| 4 | Job Search Copilot | Pipeline tracking, interview prep briefs, follow-up nudges | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+label%3Apack-request) |
+
+Missing the one you need? **[Request a pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** and 👍 the [requests you want most](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc). The most-voted request is the next pack we build.
+
+## 🧭 How packs behave
+
+| | |
+|---|---|
+| 🔒 **Zero personal data** | Packs are templates. Your city, hours and interests are asked at install and stay in your Instinct. |
+| 🙋 **Asks before acting for you** | A pack never messages people, books, buys or accepts invites on its own. |
+| 🌱 **Adapts, doesn't nag** | Hard day? The plan shrinks and a walk counts. No second pings, no guilt. |
+| 📱 **Phone-sized** | Every message reads in under a minute. |
+| 🧩 **Small pieces** | Every module works alone. Take the whole pack or just the morning brief. |
+| 🔎 **Checked, not remembered** | Weather, prices and news come from live sources when the message is sent. |
+
+## 🗺️ Roadmap
+
+- [x] Pack #1 · The Configured Assistant (EN + PT)
+- [x] Public request board with votes
+- [x] Live install counter (👍 on issue #1)
+- [ ] Pack #2 · picked by the top-voted [request](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)
+- [ ] Pack pages with community tips ("how I tuned my morning brief")
+- [ ] Contributor badges: first fix, first module, pack author
+- [ ] More languages (ES, FR) - [help translate](CONTRIBUTING.md)
+
+## 🤝 Community
+
+- **💡 [Request a pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** - describe the routine you wish your Instinct ran.
+- **🗳️ [Vote on the board](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)** - 👍 decides what gets built next.
+- **🛠️ [Contribute](CONTRIBUTING.md)** - improve a module, translate a pack, or publish your own setup. Every accepted contribution is credited on the pack and in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+- **⭐ Star the repo** to follow new packs.
+
+### Contributors
+
+<a href="https://github.com/olserra/assistant-packs/graphs/contributors"><img src="https://contrib.rocks/image?repo=olserra/assistant-packs" alt="Contributors"></a>
+
+## ❓ FAQ
+
+<details>
+<summary><b>Is this an official Instinct project?</b></summary>
+
+No. Assistant Packs is an independent community project built by Instinct users. It is not affiliated with or endorsed by Instinct.
+</details>
+
+<details>
+<summary><b>Does a pack read my email or calendar?</b></summary>
+
+Only if you say yes during setup. The evening brief and the watchers work better with calendar and email access; everything else works without it.
+</details>
+
+<details>
+<summary><b>What does it cost?</b></summary>
+
+Packs are free and MIT-licensed.
+</details>
+
+<details>
+<summary><b>I don't use Instinct. Can I still use a pack?</b></summary>
+
+Packs are written for Instinct first. The files follow the open <a href="https://agentskills.io/specification">Agent Skills</a> format, so other assistants can read them too. See <a href="ADAPTERS.md">ADAPTERS.md</a>.
+</details>
+
+## 📁 Repository layout
+
+```text
+packs/<pack-id>/
+  README.md · README.pt.md   what the pack does, with previews
+  INSTALL.md                 copy-paste install messages for Instinct
+  pack.yaml                  name, version, modules, credits
+  skills/<pack-id>/          English skill: SKILL.md + references/ (one file per module)
+  skills/<pack-id>-pt/       Portuguese skill
+assets/                      banner and preview images
+FORMAT.md                    the pack format
 ```
-
-## Contributors
-
-Every merged pack or improvement is credited in [CONTRIBUTORS.md](CONTRIBUTORS.md) and in the pack's own `pack.yaml`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE).
+[MIT](LICENSE) · Made by [@olserra](https://github.com/olserra) and [contributors](CONTRIBUTORS.md). Not affiliated with Instinct.
