@@ -130,7 +130,7 @@ Este projeto é de quem o usa. Decidimos juntos o que se constrói, e cada contr
 
 ### 🙌 Contribuidores
 
-Obrigado a todos os que constroem o Assistant Packs ([legenda dos emojis](https://allcontributors.org/docs/en/emoji-key)). Traduções, ideias, revisões e documentação contam, não só packs.
+Obrigado a todos os que constroem o Assistant Packs ([legenda dos emojis](https://allcontributors.org/en/reference/emoji-key/)). Traduções, ideias, revisões e documentação contam, não só packs.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

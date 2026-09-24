@@ -130,7 +130,7 @@ This project belongs to the people who use it. We decide together what gets buil
 
 ### 🙌 Contributors
 
-Thanks to everyone who builds Assistant Packs ([emoji key](https://allcontributors.org/docs/en/emoji-key)). Translations, ideas, reviews and docs count, not only packs.
+Thanks to everyone who builds Assistant Packs ([emoji key](https://allcontributors.org/en/reference/emoji-key/)). Translations, ideas, reviews and docs count, not only packs.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
