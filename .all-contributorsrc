@@ -1,0 +1,19 @@
+{
+  "projectName": "assistant-packs",
+  "projectOwner": "olserra",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md", "README.pt.md"],
+  "imageSize": 80,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "olserra",
+      "name": "olserra",
+      "avatar_url": "https://avatars.githubusercontent.com/olserra",
+      "profile": "https://github.com/olserra",
+      "contributions": ["content", "ideas", "doc", "design", "maintenance"]
+    }
+  ]
+}
