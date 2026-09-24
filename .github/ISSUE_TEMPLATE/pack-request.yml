@@ -1,0 +1,56 @@
+name: Pack request / Pedido de pack
+description: Ask for a pack you wish existed. Others vote with 👍. / Pede um pack que gostavas que existisse. Os outros votam com 👍.
+title: "[Pack request] "
+labels: ["pack-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Search open requests first and 👍 an existing one if it matches.
+        Obrigado! Procura primeiro nos pedidos abertos e dá 👍 se já existir.
+        **Do not include personal data. / Não incluas dados pessoais.**
+  - type: input
+    id: name
+    attributes:
+      label: Pack name / Nome do pack
+      placeholder: "e.g. Inbox Zero Chief"
+    validations:
+      required: true
+  - type: textarea
+    id: job
+    attributes:
+      label: What should your assistant do? / O que deve o assistente fazer?
+      description: Describe the routine, in plain words. / Descreve a rotina, em palavras simples.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle this today? / Como resolves isto hoje?
+  - type: dropdown
+    id: assistant
+    attributes:
+      label: Which assistant do you use? / Que assistente usas?
+      multiple: true
+      options:
+        - Instinct
+        - Claude
+        - ChatGPT
+        - Open-source agent
+        - Other / Outro
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / Idioma
+      multiple: true
+      options:
+        - English
+        - Português
+        - Other / Outro
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Want to help build it? / Queres ajudar a construí-lo?
+      options:
+        - label: I can test it / Posso testar
+        - label: I can write it / Posso escrevê-lo
