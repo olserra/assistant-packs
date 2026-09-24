@@ -1,0 +1,29 @@
+id: inbox-zero-chief
+number: 2
+name: Inbox Zero Chief
+name_pt: Chefe da Caixa de Entrada
+version: 0.0.1
+status: draft            # help wanted - see issue #2
+languages: [en]          # add pt when skills/inbox-zero-chief-pt is complete
+summary: Your assistant keeps your inbox under control - rules you approve, reply drafts in your voice, a weekly unsubscribe sweep. It never sends or deletes without your yes.
+summary_pt: O assistente mantém a caixa de entrada sob controlo - regras que aprovas, rascunhos de resposta com a tua voz, uma limpeza semanal de newsletters. Nunca envia nem apaga sem o teu sim.
+skills:
+  en: skills/inbox-zero-chief
+  pt: skills/inbox-zero-chief-pt   # in progress
+modules:
+  - id: triage-rules
+    en: references/triage-rules.md       # TODO - outline only
+  - id: reply-drafts
+    en: references/reply-drafts.md       # TODO - outline only
+  - id: unsubscribe-sweep
+    en: references/unsubscribe-sweep.md  # TODO - good first issue #9
+requires: [email-read, scheduled-messages]
+optional: [email-draft, email-labels]
+tracking_issue: 2
+license: MIT
+credits:
+  - github: olserra
+    role: scaffold
+  # Add yourself here when your module is merged:
+  # - github: your-handle
+  #   role: author (triage-rules)
