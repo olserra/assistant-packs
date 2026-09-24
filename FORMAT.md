@@ -42,6 +42,7 @@ description: Sets up and runs a chief-of-staff routine ... Use when ...
 id: configured-assistant
 name: The Configured Assistant
 version: 0.1.0
+status: live                         # live, or draft while contributors build it
 languages: [en, pt]
 summary: One-line pitch.
 modules:
