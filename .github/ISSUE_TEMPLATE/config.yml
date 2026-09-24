@@ -1,1 +1,11 @@
 blank_issues_enabled: true
+contact_links:
+  - name: ❓ Questions & help / Perguntas e ajuda
+    url: https://github.com/olserra/assistant-packs/discussions/categories/q-a
+    about: Ask how to install, tune or write a pack. / Pergunta como instalar, ajustar ou escrever um pack.
+  - name: 🎉 Show your setup / Mostra a tua configuração
+    url: https://github.com/olserra/assistant-packs/discussions/categories/show-and-tell
+    about: Share how you tuned a pack. / Partilha como ajustaste um pack.
+  - name: 🔒 Report personal data or a safety problem / Reportar dados pessoais ou um problema de segurança
+    url: https://github.com/olserra/assistant-packs/security/advisories/new
+    about: Private, only maintainers see it. / Privado, só os maintainers veem.

@@ -1,0 +1,52 @@
+name: 🐞 Something doesn't work / Algo não funciona
+description: A pack behaves wrong, a link is broken, a preview doesn't render. / Um pack comporta-se mal, um link está partido, uma imagem não aparece.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please **remove personal data** from anything you paste (names, places, emails, calendar details).
+        Obrigado por reportares! **Remove dados pessoais** de tudo o que colares (nomes, lugares, emails, detalhes do calendário).
+        Found personal data in the repo itself? Use a [private report](https://github.com/olserra/assistant-packs/security/advisories/new) instead.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where? / Onde?
+      options:
+        - "Pack #1 The Configured Assistant"
+        - "Pack #2 Inbox Zero Chief (draft)"
+        - README / docs / links
+        - Previews / images
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / O que esperavas?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Passos para reproduzir
+      placeholder: |
+        1. Sent the install message
+        2. Asked "run my morning brief"
+        3. ...
+  - type: dropdown
+    id: assistant
+    attributes:
+      label: Assistant / Assistente
+      options:
+        - Instinct
+        - Claude
+        - ChatGPT
+        - Open-source agent
+        - Other / Outro

@@ -1,13 +1,13 @@
-name: Pack request / Pedido de pack
-description: Ask for a pack you wish existed. Others vote with 👍. / Pede um pack que gostavas que existisse. Os outros votam com 👍.
+name: 💡 Pack idea / Ideia de pack
+description: Suggest a pack you wish existed. Others vote with 👍. / Sugere um pack que gostavas que existisse. Os outros votam com 👍.
 title: "[Pack request] "
 labels: ["pack-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks! Search open requests first and 👍 an existing one if it matches.
-        Obrigado! Procura primeiro nos pedidos abertos e dá 👍 se já existir.
+        Thanks! [Search open requests](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request) first and 👍 an existing one if it matches.
+        Obrigado! [Procura primeiro nos pedidos abertos](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request) e dá 👍 se já existir.
         **Do not include personal data. / Não incluas dados pessoais.**
   - type: input
     id: name
@@ -46,6 +46,8 @@ body:
       options:
         - English
         - Português
+        - Español
+        - Français
         - Other / Outro
   - type: checkboxes
     id: help

@@ -1,0 +1,45 @@
+name: 🛠️ Improve a pack / Melhorar um pack
+description: Suggest a better module, a missing option, a clearer message or a translation fix. / Sugere um módulo melhor, uma opção em falta, uma mensagem mais clara ou uma correção de tradução.
+title: "[Improve] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Small, concrete ideas get picked up fastest. Want to make the change yourself? Say so below, or open a PR straight away.
+        Ideias pequenas e concretas avançam mais depressa. Queres fazer a mudança tu? Diz abaixo, ou abre logo um PR.
+        **Do not include personal data. / Não incluas dados pessoais.**
+  - type: dropdown
+    id: pack
+    attributes:
+      label: Pack
+      options:
+        - "#1 The Configured Assistant"
+        - "#2 Inbox Zero Chief (draft)"
+        - Repo / docs
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Module / Módulo
+      placeholder: "e.g. morning brief / ex.: resumo da manhã"
+  - type: textarea
+    id: now
+    attributes:
+      label: What happens now? / O que acontece agora?
+    validations:
+      required: true
+  - type: textarea
+    id: better
+    attributes:
+      label: What would be better? / O que seria melhor?
+      description: An example message helps a lot. / Um exemplo de mensagem ajuda muito.
+    validations:
+      required: true
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Want to do it? / Queres fazê-lo?
+      options:
+        - label: I'll open a PR / Eu abro um PR
