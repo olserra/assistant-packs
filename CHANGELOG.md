@@ -6,6 +6,9 @@ Todas as mudanças relevantes do Assistant Packs. Cada pack tem a sua versão no
 
 ## [Unreleased]
 
+### Added
+- **Pack #3 · Market Watch** 0.1.0 (EN + PT): daily market brief (indices, currencies, crypto, optional commodities, market headlines, scheduled events), price and move alerts with a daily cap, and a weekly wrap. Facts only, no advice, never trades. / **Pack n.º 3 · De Olho no Mercado** 0.1.0 (PT + EN).
+
 - Your contribution here. / A tua contribuição aqui.
 
 ## [0.1.0] - 2026-09-24

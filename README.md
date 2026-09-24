@@ -78,8 +78,9 @@ and show me a sample evening brief for tomorrow before the first one goes out.
 |:-:|------|--------------------------|:---------:|:------:|
 | 1 | **[The Configured Assistant](packs/configured-assistant/)** | Morning brief · evening brief for tomorrow · one daily coaching ping · points and a Sunday scoreboard · traffic and reply watchers · weekly habit technique | 🇬🇧 🇵🇹 | ✅ **Live · free** |
 | 2 | **[Inbox Zero Chief](packs/inbox-zero-chief/)** | Triage rules, reply drafts in your voice, a weekly unsubscribe sweep | 🇬🇧 | 🛠️ **Scaffolded · [help wanted](https://github.com/olserra/assistant-packs/issues/2)** |
-| 3 | Family Logistics | Shared calendars, school deadlines, pickups, birthdays and gifts | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues/3) |
-| 4 | Job Search Copilot | Pipeline tracking, interview prep briefs, follow-up nudges | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues/4) |
+| 3 | **[Market Watch](packs/market-watch/)** | A market brief before the open (indices, currencies, crypto, headlines) · price and move alerts you set · a weekly wrap. Facts, never advice | 🇬🇧 🇵🇹 | ✅ **Live · free** |
+| 4 | Family Logistics | Shared calendars, school deadlines, pickups, birthdays and gifts | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues/3) |
+| 5 | Job Search Copilot | Pipeline tracking, interview prep briefs, follow-up nudges | - | 🗳️ [Vote](https://github.com/olserra/assistant-packs/issues/4) |
 
 Missing the one you need? **[Request a pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** and 👍 the [requests you want most](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc). The most-voted request is the next pack we build.
 
@@ -100,8 +101,9 @@ Missing the one you need? **[Request a pack](https://github.com/olserra/assistan
 - [x] Public request board with votes
 - [x] Live install counter (👍 on issue #1)
 - [x] Contributor guides, templates and good first issues
+- [x] Pack #3 · Market Watch (EN + PT)
 - [ ] Pack #2 · Inbox Zero Chief, built by the community ([help wanted](https://github.com/olserra/assistant-packs/issues/2))
-- [ ] Pack #3 · picked by the most-voted [request](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)
+- [ ] Pack #4 · picked by the most-voted [request](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc)
 - [ ] Pack pages with community tips ("how I tuned my morning brief")
 - [ ] Contributor badges: first fix, first module, pack author
 - [ ] More languages (ES, FR) - [help translate](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation)

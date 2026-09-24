@@ -78,8 +78,9 @@ e mostra-me um exemplo do resumo da noite de amanhã antes do primeiro sair.
 |:-:|------|--------------------------|:-------:|:------:|
 | 1 | **[O Assistente Configurado](packs/configured-assistant/README.pt.md)** | Resumo matinal · resumo da noite para amanhã · um lembrete de coaching por dia · pontos e placar ao domingo · vigilantes de trânsito e respostas · técnica de hábitos da semana | 🇵🇹 🇬🇧 | ✅ **Disponível · grátis** |
 | 2 | **[Chefe da Caixa de Entrada](packs/inbox-zero-chief/README.pt.md)** | Regras de triagem, rascunhos no teu tom, limpeza semanal de subscrições | 🇬🇧 | 🛠️ **Em construção · [procura ajuda](https://github.com/olserra/assistant-packs/issues/2)** |
-| 3 | Logística Familiar | Calendários partilhados, prazos da escola, recolhas, aniversários e presentes | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/3) |
-| 4 | Copiloto de Procura de Emprego | Pipeline de candidaturas, briefings de entrevista, lembretes de follow-up | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/4) |
+| 3 | **[De Olho no Mercado](packs/market-watch/README.pt.md)** | Resumo de mercados antes da abertura (índices, moedas, cripto, notícias) · alertas de preço e variação que defines · balanço semanal. Factos, nunca conselhos | 🇵🇹 🇬🇧 | ✅ **Disponível · grátis** |
+| 4 | Logística Familiar | Calendários partilhados, prazos da escola, recolhas, aniversários e presentes | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/3) |
+| 5 | Copiloto de Procura de Emprego | Pipeline de candidaturas, briefings de entrevista, lembretes de follow-up | - | 🗳️ [Votar](https://github.com/olserra/assistant-packs/issues/4) |
 
 Falta o pack de que precisas? **[Pede um pack](https://github.com/olserra/assistant-packs/issues/new?template=pack-request.yml)** e dá 👍 aos [pedidos que mais queres](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc). O pedido mais votado é o próximo pack a ser construído.
 
@@ -100,8 +101,9 @@ Falta o pack de que precisas? **[Pede um pack](https://github.com/olserra/assist
 - [x] Quadro público de pedidos com votos
 - [x] Contador de instalações ao vivo (👍 na issue #1)
 - [x] Guias para contribuidores, modelos e boas primeiras issues
+- [x] Pack n.º 3 · De Olho no Mercado (PT + EN)
 - [ ] Pack n.º 2 · Chefe da Caixa de Entrada, construído pela comunidade ([procura ajuda](https://github.com/olserra/assistant-packs/issues/2))
-- [ ] Pack n.º 3 · escolhido pelo [pedido](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc) mais votado
+- [ ] Pack n.º 4 · escolhido pelo [pedido](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Apack-request+sort%3Areactions-%2B1-desc) mais votado
 - [ ] Páginas de pack com dicas da comunidade ("como afinei o meu resumo matinal")
 - [ ] Distintivos de contribuidor: primeira correção, primeiro módulo, autor de pack
 - [ ] Mais línguas (ES, FR) - [ajuda a traduzir](https://github.com/olserra/assistant-packs/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation)
