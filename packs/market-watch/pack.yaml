@@ -1,0 +1,28 @@
+id: market-watch
+number: 3
+name: Market Watch
+name_pt: De Olho no Mercado
+version: 0.1.0
+status: live
+languages: [en, pt]
+summary: Your assistant follows the markets for you - a short market brief before the open, price and move alerts you set, and a weekly wrap. Facts only, never advice, never trades.
+summary_pt: O assistente acompanha os mercados por ti - um resumo curto antes da abertura, alertas de preço e variação que tu defines e um balanço semanal. Só factos, nunca conselhos, nunca negoceia.
+skills:
+  en: skills/market-watch
+  pt: skills/market-watch-pt
+modules:
+  - id: market-brief
+    en: references/market-brief.md
+    pt: references/resumo-de-mercados.md
+  - id: price-alerts
+    en: references/price-alerts.md
+    pt: references/alertas-de-preco.md
+  - id: weekly-wrap
+    en: references/weekly-wrap.md
+    pt: references/balanco-semanal.md
+requires: [scheduled-messages, web-search]
+optional: [recurring-checks]
+license: MIT
+credits:
+  - github: olserra
+    role: author
