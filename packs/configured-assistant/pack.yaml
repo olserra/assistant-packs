@@ -1,0 +1,37 @@
+id: configured-assistant
+number: 1
+name: The Configured Assistant
+name_pt: O Assistente Configurado
+version: 0.1.0
+languages: [en, pt]
+summary: Turn a blank assistant into a chief of staff with a daily rhythm that adapts instead of nagging.
+summary_pt: Transforma um assistente em branco num chefe de gabinete com um ritmo diário que se adapta em vez de cobrar.
+skills:
+  en: skills/configured-assistant
+  pt: skills/configured-assistant-pt
+modules:
+  - id: morning-brief
+    en: references/morning-brief.md
+    pt: references/resumo-matinal.md
+  - id: evening-brief
+    en: references/evening-brief.md
+    pt: references/resumo-da-noite.md
+  - id: accountability-ping
+    en: references/accountability-ping.md
+    pt: references/lembrete-diario.md
+  - id: points-scoreboard
+    en: references/points-scoreboard.md
+    pt: references/placar-de-pontos.md
+  - id: event-watchers
+    en: references/event-watchers.md
+    pt: references/vigilantes.md
+  - id: coaching-cadence
+    en: references/coaching-cadence.md
+    pt: references/coaching.md
+requires: [scheduled-messages, web-search]
+optional: [calendar-read, email-read, location]
+install_issue: 1
+license: MIT
+credits:
+  - github: olserra
+    role: author
